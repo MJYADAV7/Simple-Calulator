@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="cmd.js"></script>
+    <title>Calulator</title>
+</head>
+<body>
+    <div class="main-countainer" >
+        <input type="text" class="desk">
+        <input type="text" class="textfield" id="main-text" name="0">
+        <div class="components">
+            <div class="row">
+                <button type="button" class="button" onclick="myfunction('1')">1</button>
+                <button type="button" class="button" onclick="myfunction('2')">2</button>
+                <button type="button" class="button" onclick="myfunction('3')">3</button>
+                <button type="button" class="button" onclick="calculate('+')">+</button>
+            </div>
+            <div class="row">
+                <button type="button" class="button" onclick="myfunction('4')">4</button>
+                <button type="button" class="button" onclick="myfunction('5')">5</button>
+                <button type="button" class="button" onclick="myfunction('6')">6</button> 
+                <button type="button" class="button" onclick="calculate('-')">-</button>
+            </div>
+            <div class="row">
+                <button type="button" class="button" onclick="myfunction('7')">7</button>
+                <button type="button" class="button" onclick="myfunction('8')">8</button>
+                <button type="button" class="button" onclick="myfunction('9')">9</button>
+                <button type="button" class="button" onclick="calculate('*')">*</button>
+            </div>
+            
+            <div class="row">
+                <button type="button" class="button" onclick="myfunction('0')">0</button>
+                <button type="button" class="button" onclick="point('.')">.</button>
+                <button type="button" class="button" onclick="calculate('=')">=</button>
+                <button type="button" class="button" onclick="calculate('/')">/</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
